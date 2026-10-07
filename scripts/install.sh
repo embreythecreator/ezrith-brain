@@ -2084,7 +2084,7 @@ EOF
     chmod +x "$command_link_dir/ezrith-brain"
     log_success "Installed ezrith-brain launcher → $command_link_display_dir/ezrith-brain"
 
-    # Also expose `ezrith-acp`. ACP hosts (Zed, JetBrains, Buzz) resolve the
+    # Also expose `ezrith-acp`. ACP hosts (Zed, JetBrains, Plane) resolve the
     # agent by command name on the login-shell PATH, and the `ezrith-acp`
     # console script lives inside the venv, which is not on that PATH. Without
     # this launcher those hosts report Ezrith as not installed. (#21454 applies
